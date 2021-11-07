@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Todo App</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h2>To-do app</h2>
+    </nav>
+    <div class="search-wrapper">
+      <input type="text" name="" id="search-todos" placeholder="Search">
+      <label>
+        <input type="checkbox" name="hideCompleted" id="hide-completed">
+        Hide completed
+      </label>
+    </div>
+  </header>
+
+  <section class="section-center">
+
+    <div class="todo-list" id="todos"></div>
+    <form id="add-todo-form">
+      <input class="add-input" type="text" name="text" placeholder="water plant">
+      <button class="add-btn">Add Todo</button>
+    </form>
+  </section>
+
+  <script src="scripts/bundle.js"></script>
+</body>
+
+</html>
